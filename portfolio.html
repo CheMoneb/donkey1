@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="keywords" content="HTML, CSS, JAVASCRIPT">
+        <meta name="description" content="portfolio">
+        <meta name="author" content="Nom Prenom">
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+
+<!-- début barre de navigation -->
+        <nav>
+            <a href="#maison" class="active">PN</a>
+            <ul id="#liens">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="barnav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+<!-- fin barre de navigation -->
+
+<!-- début header -->
+        <header id="accueil">
+            <h1>Prénom Nom</h1>
+            <p>Développeur full stack</p>
+            <p>"Ce qui ne me tue pas me rend plus fort."</p>
+        </header>
+<!-- fin header -->
+
+<!-- début CV -->
+        <section id="info">
+            <div class="col-4 left">
+                <div class="bgauche">
+                    <h2>Curriculum vitae</h2>
+                    <p>Aenean scelerisque. Fusce pretium porttitor lorem. In hac habitasse platea dictumst. Nulla sit amet nisl at sapien egestas pretium. Nunc non tellus. Vivamus aliquet. Nam adipiscing euismod dolor. Aliquam erat volutpat. Nulla ut ipsum. Quisque tincidunt auctor augue. Nunc imperdiet ipsum eget elit. Aliquam quam leo, consectetuer non, ornare sit amet, tristique quis, felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Pellentesque interdum quam sit amet mi. Pellentesque mauris dui, dictum a, adipiscing ac, fermentum sit amet, lorem.
+
+                        Phasellus placerat vulputate quam. Maecenas at tellus. Pellentesque neque diam, dignissim ac, venenatis vitae, consequat ut, lacus. Nam nibh. Vestibulum fringilla arcu mollis arcu. Sed et turpis. Donec sem tellus, volutpat et, varius eu, commodo sed, lectus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque enim arcu, suscipit nec, tempus at, imperdiet vel, metus. Morbi volutpat purus at erat. Donec dignissim, sem id semper tempus, nibh massa eleifend turpis, sed pellentesque wisi purus sed libero. Nullam lobortis tortor vel risus. Pellentesque consequat nulla eu tellus. Donec velit. Aliquam fermentum, wisi ac rhoncus iaculis, tellus nunc malesuada orci, quis volutpat dui magna id mi. Nunc vel ante. Duis vitae lacus. Cras nec ipsum.</p>
+                </div>
+            </div>
+        </section>
+<!-- fin CV -->
+
+<!-- début projets -->
+        <section id="projets">
+            <div class="col-8 right">
+                <div class="bdroite">
+                    <h2>Projets</h2>
+                        <p>Aenean scelerisque. Fusce pretium porttitor lorem. In hac habitasse platea dictumst. Nulla sit amet nisl at sapien egestas pretium. Nunc non tellus. Vivamus aliquet. Nam adipiscing euismod dolor. Aliquam erat volutpat. Nulla ut ipsum. Quisque tincidunt auctor augue. Nunc imperdiet ipsum eget elit. Aliquam quam leo, consectetuer non, ornare sit amet, tristique quis, felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Pellentesque interdum quam sit amet mi. Pellentesque mauris dui, dictum a, adipiscing ac, fermentum sit amet, lorem.
+
+                            Phasellus placerat vulputate quam. Maecenas at tellus. Pellentesque neque diam, dignissim ac, venenatis vitae, consequat ut, lacus. Nam nibh. Vestibulum fringilla arcu mollis arcu. Sed et turpis. Donec sem tellus, volutpat et, varius eu, commodo sed, lectus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque enim arcu, suscipit nec, tempus at, imperdiet vel, metus. Morbi volutpat purus at erat. Donec dignissim, sem id semper tempus, nibh massa eleifend turpis, sed pellentesque wisi purus sed libero. Nullam lobortis tortor vel risus. Pellentesque consequat nulla eu tellus. Donec velit. Aliquam fermentum, wisi ac rhoncus iaculis, tellus nunc malesuada orci, quis volutpat dui magna id mi. Nunc vel ante. Duis vitae lacus. Cras nec ipsum.</p>
+                </div>
+            </div>
+        </section>
+<!-- fin projets -->
+
+<!-- début footer -->
+        <footer>
+            <div id="contact" class="col-12">
+                <div class="formulaire">
+                    <form action="/action_page.php">
+                        <label for="nom">Nom</label><br>
+                        <input type="text" name="nom" id="nom"><br>
+                        <br>
+                        <label for="prenom">Prénom</label><br>
+                        <input type="text" name="prenom" id="prenom"><br>
+                        <br>
+                        <label for="objet">Objet</label><br>
+                        <input type="text" name="objet" id="objet"><br>
+                        <br>
+                        <label for="message">Message</label><br>
+                        <textarea type="text" name="message" id="message" rows="5" cols="50"></textarea><br>
+                        <br>
+                        <br>
+                        <input type="submit" value="submit"><br>
+                        <br>
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </footer>
+<!-- fin footer -->
+
+        <script src="portfolio.js"></script> 
+    
+    </body>
+</html>

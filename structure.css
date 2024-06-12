@@ -1,5 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     background-image: url("forêt2.jpg");
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .entete-image {
